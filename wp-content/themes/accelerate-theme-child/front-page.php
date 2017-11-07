@@ -25,7 +25,7 @@ get_header(); ?>
 
 
 
-<section class="featured-work">
+<section class="featured-work clearfix">
     <div class="site-content">
         <h4>Featured Work</h4>
 

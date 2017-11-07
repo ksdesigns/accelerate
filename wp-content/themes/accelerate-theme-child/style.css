@@ -123,14 +123,16 @@ div.case-study-images img {
 
 }
 
+.featured-work .site-content {
+    display: block;
+}
 ul.homepage-featured-work {
     list-style-type: none;
-
 }
 
-.individual-featured-work figure {
+.individual-featured-work {
     float: left;
-
+    width: 33%;
 }
 
 
