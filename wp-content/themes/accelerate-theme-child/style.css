@@ -148,9 +148,37 @@ div.case-study-images img {
 
 
 
+/* FOOTER */
 
+ul.social-media-menu {
+    list-style-type: none;
+}
 
+ul.social-media-menu li {
+    display: inline;
+    padding: 5px;
+}
 
+.fa {
+    font-size: 1.2em;
+    color: white;
+}
+
+.fa-facebook {
+    width: 1.5em;
+    text-align: center;
+}
+
+i {
+    background-color: #383838;
+    border-radius: 50%;
+    border: 1px;
+    padding: 5px;
+}
+
+.fontawesome-text {
+    display: none;
+}
 
 
 
