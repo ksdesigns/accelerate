@@ -26,7 +26,7 @@ get_header(); ?>
             <article class="case-study">
                 <aside class="case-study-sidebar">
                     <h2><?php the_title(); ?></h2>
-                    <h4><?php echo $services; ?></h4>
+                    <h5><?php echo $services; ?></h5>
                 
                     <?php the_content(); ?>
                     
@@ -38,11 +38,11 @@ get_header(); ?>
                         echo wp_get_attachment_image( $image_1, $size );
                     } ?>
                     
-                    <?php if($image_1) {
+                    <?php if($image_2) {
                         echo wp_get_attachment_image( $image_2, $size );
                     } ?>
                     
-                    <?php if($image_1) {
+                    <?php if($image_3) {
                         echo wp_get_attachment_image( $image_3, $size );
                     } ?>
                 </div>
